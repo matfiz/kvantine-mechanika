@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="lt" data-refpop="{&#34;open&#34;:&#34;Atverti konspekte&#34;,&#34;goto&#34;:&#34;Eiti ten&#34;,&#34;loading&#34;:&#34;Įkeliama…&#34;,&#34;failed&#34;:&#34;Šios nuorodos įkelti nepavyko.&#34;}"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Puslapis nerastas · Kvantinė mechanika</title><link rel="icon" href="/kvantine-mechanika/favicon.svg"><link rel="alternate" hreflang="lt" href="/kvantine-mechanika/"><link rel="alternate" hreflang="en" href="/kvantine-mechanika/en/"><script>
+      // Applied before first paint, so the page never flashes the wrong theme.
+      (function () {
+        try {
+          var t = localStorage.getItem("quantum-mechanics-theme");
+          if (t) document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script><link rel="stylesheet" href="/kvantine-mechanika/_astro/about.pziT2uaP.css"></head> <body> <script type="module" src="/kvantine-mechanika/_astro/UserNav.astro_astro_type_script_index_0_lang.Bw3o7byJ.js"></script>  <div class="board" aria-hidden="true"><div class="board-ink"></div></div> <script>
+      // Fade the board out over the first 60% of a screen of scrolling.
+      (function () {
+        var board = document.querySelector(".board"), frame = 0;
+        if (!board) return;
+        function update() {
+          frame = 0;
+          board.style.opacity = String(Math.max(0, 1 - window.scrollY / (window.innerHeight * 0.6)));
+        }
+        window.addEventListener("scroll", function () {
+          if (!frame) frame = requestAnimationFrame(update);
+        }, { passive: true });
+        update();
+      })();
+    </script> <a class="skip-link" href="#main">Pereiti prie turinio</a> <header class="site-header"> <div class="wrap bar"> <a class="brand" href="/kvantine-mechanika/">Kvantinė mechanika</a> <nav class="site-nav"> <div class="nav-links"> <a href="/kvantine-mechanika/"> Paskaitos </a><a href="/kvantine-mechanika/problems/"> Uždaviniai </a><a href="/kvantine-mechanika/review/"> Kartojimas </a><a href="/kvantine-mechanika/literature/"> Literatūra </a><a href="/kvantine-mechanika/about/"> Apie kursą </a><a href="/kvantine-mechanika/search/"> Paieška </a> </div>  <a class="matfiz-user-nav" href="/kvantine-mechanika/user/" data-matfiz-nav data-label="Mano pažanga" aria-label="Mano pažanga" title="Mano pažanga" data-matfiz-course="{&#34;version&#34;:1,&#34;id&#34;:&#34;quantum&#34;,&#34;prefix&#34;:&#34;quantum-&#34;,&#34;titles&#34;:{&#34;lt&#34;:&#34;Kvantinė mechanika&#34;,&#34;en&#34;:&#34;Quantum Mechanics&#34;},&#34;homes&#34;:{&#34;lt&#34;:&#34;/kvantine-mechanika/&#34;,&#34;en&#34;:&#34;/kvantine-mechanika/en/&#34;},&#34;details&#34;:{&#34;lt&#34;:&#34;/kvantine-mechanika/&#34;,&#34;en&#34;:&#34;/kvantine-mechanika/en/&#34;}}" hidden data-astro-cid-udyq3rbu> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-udyq3rbu> <path d="M3 3v18h18" data-astro-cid-udyq3rbu></path><path d="m7 15 4-4 3 3 5-6" data-astro-cid-udyq3rbu></path> </svg> </a>    <a class="home-link" href="https://matfiz.github.io/" aria-label="Matfiz pradžia" title="Matfiz pradžia"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <path d="M3 10.5 12 3l9 7.5"></path><path d="M5 9.5V20h5v-6h4v6h5V9.5"></path> </svg> </a> <div class="lang-switch" role="group" aria-label="Kalba"> <a href="/kvantine-mechanika/" hreflang="lt" lang="lt" aria-label="Lietuvių" title="Lietuvių" aria-current="true"> LT </a><a href="/kvantine-mechanika/en/" hreflang="en" lang="en" aria-label="English" title="English"> EN </a> </div> <button class="theme-toggle" type="button" data-theme-toggle aria-label="Keisti spalvų temą"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button> </nav> </div> </header> <main class="wrap" id="main">  <header class="page-head"> <h1>Puslapis nerastas</h1> <a href="/kvantine-mechanika/">Visos paskaitos</a> </header>  </main> <footer class="site-footer"> <div class="wrap"> <p> Kvantinė mechanika — Baigtinės sistemos, tolydžios sistemos ir pagrindai.
+ <span class="updated">Atnaujinta: 2026 m. lapkričio 24 d.</span> </p> </div> </footer> <script>
+      document.querySelector("[data-theme-toggle]")?.addEventListener("click", function () {
+        var root = document.documentElement;
+        var current = root.getAttribute("data-theme");
+        if (!current) {
+          current = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        var next = current === "dark" ? "light" : "dark";
+        root.setAttribute("data-theme", next);
+        try { localStorage.setItem("quantum-mechanics-theme", next); } catch (e) {}
+      });
+    </script>  <script type="module" src="/kvantine-mechanika/_astro/Base.astro_astro_type_script_index_0_lang.CueQ9xjZ.js"></script> </body> </html>
